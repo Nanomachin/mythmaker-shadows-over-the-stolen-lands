@@ -29,5 +29,8 @@
       },
       "flags": {}
     }
-  ]
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
 }
