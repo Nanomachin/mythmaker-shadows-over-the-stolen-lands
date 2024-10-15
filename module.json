@@ -1,7 +1,7 @@
 {
   "id": "mythmaker-shadows-over-the-stolen-lands",
   "title": "Mythmaker - Shadows over the Stolen Lands",
-  "version": "0.1.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
