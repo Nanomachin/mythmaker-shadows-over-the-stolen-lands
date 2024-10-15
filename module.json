@@ -6,31 +6,35 @@
     "minimum": "12",
     "verified": "12"
   },
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "authors": [
+    {
+      "name": "Aureliano Legna",
+      "flags": {}
+    }
+  ],
   "packs": [
     {
       "name": "global-scenes",
-      "label": "global-scenes",
+      "label": "Global Scenes",
       "path": "packs/global-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "global-journals",
-      "label": "global-journals",
+      "label": "Global Journals",
       "path": "packs/global-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     }
-  ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#"
+  ]
 }
